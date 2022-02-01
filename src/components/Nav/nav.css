@@ -1,0 +1,40 @@
+._menu {
+    padding: 5px 0;
+}
+.header__menu {
+    margin: 0px 0px 0px 133px;
+}
+@media (max-width: 992px) {
+    .header__menu {
+        margin: 0px 0px 0px 80px;
+    }
+}
+@media (max-width: 767px) {
+    .header__menu {
+        margin: 0px 0px 0px 50px;
+    }
+}
+@media (max-width: 479px) {
+    .header__menu {
+        margin: 0px 0px 0px 20px;
+    }
+}
+.menu__list {
+    display: flex;
+    flex-wrap: wrap;
+}
+.menu__item {
+
+}
+.menu__item:not(:last-child) {
+    margin: 0px 75px 0px 0px;
+}
+.menu__link {
+    color: #00062F;
+    font-size: 18px;
+}
+@media (max-width: 479px) {
+    .menu__link {
+        font-size: 24px;
+    }
+}

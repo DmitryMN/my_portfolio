@@ -4,7 +4,7 @@ const Header_Logo = () => {
     return(
         <div className="header__logowrapper">
             <span className="header__logo">DM</span>
-            <span>My portfolio</span>            
+            <span className="header__textlogo">My portfolio</span>            
         </div>
     );
 }
