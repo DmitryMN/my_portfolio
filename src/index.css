@@ -41,13 +41,3 @@ body {
     font-weight: 400;
 	background-color: #E5E5E5;
 }
-.wrapper {
-	min-height: 100%;
-	overflow: hidden;
-}
-._container {
-	max-width: 1140px;
-	margin: 0px auto;
-	padding: 0px 15px;
-	box-sizing: content-box;
-}
