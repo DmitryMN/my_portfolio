@@ -3,10 +3,12 @@
     background: #F8FFD0;
 }
 .main_block {
-    padding: 161px 0 192px 0;
+    height: calc(100vh - 104px);
 }
 .main_block__container {
     display: flex;
+    flex-wrap: wrap;
+    align-items: center;
     height: 100%;
 }
 .main_block__body {
@@ -18,5 +20,6 @@
 
 }
 .main_block__image {
-    
+    width: 300px;
+    height: 200px;
 }

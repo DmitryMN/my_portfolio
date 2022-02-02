@@ -11,7 +11,7 @@ const Main = () => {
                         <h1 className="main_block__title">I am Malenkov Dmitrii</h1>
                         <span className="main_block__text">Frontend Developer</span>
                         <div className="main_block__buttons">
-                            <a href="#" className="main_block__button main_block__button_border">Learn More</a>
+                            <a href="#" className="main_block__button main_block__button_border" download>Download CV</a>
                         </div>
                     </div>
                     <div className="main_block__image">
