@@ -1,15 +1,19 @@
 .page {
     flex: 1 1 auto;
+    background: #F8FFD0;
 }
 .main_block {
-    position: relative;
+    padding: 161px 0 192px 0;
 }
 .main_block__container {
-
+    display: flex;
 }
 .main_block__body {
-    position: relative;
-    padding: 184px 0 191px 0;
-    z-index: 2;
-    max-width: 400px;
+    max-width: 546px;
+}
+.main_block__title {
+
+}
+.main_block__image {
+    
 }
