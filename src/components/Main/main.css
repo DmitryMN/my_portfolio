@@ -7,11 +7,14 @@
 }
 .main_block__container {
     display: flex;
+    height: 100%;
 }
 .main_block__body {
     max-width: 546px;
 }
 .main_block__title {
+    font-size: 58px;
+    font-weight: 900;
 
 }
 .main_block__image {
